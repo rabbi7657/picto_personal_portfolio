@@ -252,6 +252,7 @@ nav ul li a {
 /* =================================================work-process part start============================================== */
 .process {
   background-color: #f0f1f3;
+  margin-top: -78px;
 }
 .process_bg_color {
   padding-top: 248px;
@@ -575,7 +576,7 @@ nav ul li a {
   line-height: 24px;
   margin: auto;
   margin-top: 8px;
-  margin-bottom: 158px;
+  margin-bottom: 50px;
 }
 /* =================================================testimonial part end============================================== */
 /* =================================================your project part start============================================== */
@@ -584,6 +585,8 @@ nav ul li a {
   padding: 88px;
   box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
   border-radius: 15px;
+  position: relative;
+  bottom: -68px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -746,5 +749,10 @@ textarea:focus::placeholder {
 }
 .your_project_form form button i {
   margin-left: 14px;
+}
+footer {
+  background-color: #132238;
+  height: 330px;
+  margin-bottom: 200px;
 }
 /* =================================================your project part end============================================== */
