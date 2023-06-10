@@ -46,6 +46,9 @@
 .font-72 {
   font-size: 72px;
 }
+address {
+  margin-bottom: 0px;
+}
 
 ul,
 ol {
@@ -145,6 +148,7 @@ nav ul li a {
 /* ===================================about part start============================================ */
 .about {
   align-items: center;
+  position: relative;
 }
 .about_custom_css {
   background-color: #ffffff;
@@ -186,6 +190,7 @@ nav ul li a {
   -o-transform: translate(-50%, -50%);
 }
 .about_icon i {
+  font-size: 18px;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -293,14 +298,24 @@ nav ul li a {
   height: 72px;
   text-align: center;
   line-height: 72px;
+  font-size: 24px;
   background-color: #edd8ff;
   color: #a53dff;
   margin-bottom: 32px;
   border-radius: 6px;
+  transition: 0.4s;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.process_item:hover .process_icon {
+  background-color: #a53dff;
+  color: #ffffff;
 }
 
 .process_info h4 {
@@ -438,15 +453,15 @@ nav ul li a {
   padding: 32px;
   margin-bottom: 24px;
   border-radius: 6px;
-  transition: 0.2s;
+  transition: 0.4s;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 .development_items:hover {
   box-shadow: 0px 32px 96px rgba(28, 25, 25, 0.16);
@@ -505,6 +520,14 @@ nav ul li a {
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
 }
+.client_picture:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .client_picture:hover img {
   transform: scale(1.1);
   filter: grayscale(0%);
@@ -555,5 +578,173 @@ nav ul li a {
   margin-bottom: 158px;
 }
 /* =================================================testimonial part end============================================== */
-/* =================================================testimonial part end============================================== */
-/* =================================================testimonial part end============================================== */
+/* =================================================your project part start============================================== */
+.your_project_bg {
+  background-color: #ffffff;
+  padding: 88px;
+  box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.your_project_adress {
+  width: 481px;
+}
+.your_project_adress h2 {
+  width: 481px;
+  color: #132238;
+  line-height: 50px;
+  margin-bottom: 16px;
+}
+.your_project_adress p {
+  width: 471px;
+  line-height: 24px;
+  color: #87909d;
+  margin-bottom: 16px;
+}
+.your_project_info {
+  width: 336px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  margin-bottom: 12px;
+  padding: 24px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.your_project_info:hover {
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  border-radius: 10px;
+  background-color: #fff;
+}
+.your_project_info i {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  background-color: #edd8ff;
+  color: #a53dff;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.your_project_info:hover i {
+  background-color: #a53dff;
+  color: #ffffff;
+}
+.your_project_content {
+  width: 70%;
+}
+.your_project_content h6 {
+  width: 90px;
+  line-height: 20px;
+  color: #424e60;
+  margin-bottom: 2px;
+}
+.your_project_content a {
+  width: 144px;
+  line-height: 24px;
+  color: #132238;
+}
+.your_project_icon {
+  margin-top: 35px;
+  width: 288px;
+}
+.your_project_icon i {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  color: #a53dff;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.your_project_icon i:hover {
+  background-color: #a53dff;
+  color: #ffffff;
+}
+.your_project_title {
+  align-self: center;
+}
+.your_project_title h2 {
+  width: 560px;
+  color: #87909d;
+}
+.your_project_form {
+  margin-top: 50px;
+}
+.your_project_form form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.your_project_form form input,
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e6e8eb;
+  padding-bottom: 14px;
+}
+.your_project_form form textarea {
+  resize: none;
+}
+.your_project_form form input::placeholder,
+textarea::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Work Sans", sans-serif;
+  color: #697484;
+}
+.your_project_form form input:focus,
+textarea:focus {
+  border-bottom-color: #a53dff;
+  color: #a53dff;
+}
+.your_project_form form input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #a53dff;
+}
+.your_project_form_width :first-child {
+  width: 40%;
+  margin-right: 24px;
+}
+.your_project_form_width :last-child {
+  width: 54.8%;
+}
+.your_project_form form button {
+  width: 141px;
+  border: none;
+  outline: none;
+  padding: 12px 0px;
+  background-color: #a53dff;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-top: 25px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.your_project_form form button i {
+  margin-left: 14px;
+}
+/* =================================================your project part end============================================== */
