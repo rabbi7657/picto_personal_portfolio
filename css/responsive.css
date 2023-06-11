@@ -1,0 +1,149 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  nav {
+    top: 20px;
+  }
+  nav .navbar-nav {
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #a53dff;
+    border-radius: 10px;
+    margin-top: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .navbar-nav li {
+    border-bottom: 1px solid #a53dff;
+  }
+  .navbar-nav li:last-child {
+    border-bottom: none;
+  }
+  nav .custom_btn {
+    display: none;
+  }
+  /* ================================================================= */
+  .banner_content {
+    margin-top: -80px;
+  }
+  .banner_content h1 {
+    font-size: 40px;
+    line-height: 60px;
+    width: auto;
+  }
+  .banner_content p {
+    width: auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .banner_info .banner_item {
+    width: auto;
+    margin-top: 35px;
+  }
+  /* ================================================================= */
+  .about_custom_css {
+    padding-bottom: 80px;
+  }
+  .about_icon {
+    bottom: -50px;
+  }
+  .about_icon i {
+    font-size: 16px;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+  }
+  .about_content {
+    width: auto;
+  }
+  .about_content h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .about_content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .custom_btn {
+    padding: 15px 20px;
+    align-self: center;
+  }
+  .about .custom_btn a {
+    font-size: 12px;
+  }
+  .about_download_btn {
+    padding: 15px;
+  }
+  .about_content .about_download_btn a {
+    font-size: 14px;
+  }
+  /* ================================================================ */
+
+  .process_bg_color {
+    padding-top: 175px;
+    padding-bottom: 50px;
+  }
+  .process_content h3 {
+    font-size: 40px;
+    width: auto;
+  }
+  .process_content p {
+    width: auto;
+    font-size: 14px;
+  }
+  .process_item {
+    width: auto;
+  }
+  .process_item .process_icon i {
+    font-size: 22px;
+  }
+
+  .process_item .process_info h4 {
+    font-size: 16px;
+    width: auto;
+  }
+  .process_item .process_info p {
+    width: auto;
+    font-size: 14px;
+  }
+  /* ================================================================ */
+  .portfolio_title {
+    margin-top: 47px;
+  }
+  .portfolio_title p {
+    font-size: 14px;
+    width: auto;
+  }
+  .portfolio_custom_card {
+    width: auto;
+  }
+  .portfolio_custom_card .portfolio_info h3 {
+    font-size: 14px;
+  }
+  .portfolio_info p {
+    width: auto;
+  }
+  .portfolio_btn {
+    padding: 12px 15px;
+  }
+  .portfolio_btn a {
+    font-size: 14px;
+  }
+  .portfolio_btn_position {
+    margin-bottom: -64px;
+  }
+
+  /* ============================================================ */
+  .project {
+    height: 300px;
+  }
+  .project_content h2 {
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+  }
+  .project_btn a {
+    font-size: 14px;
+  }
+}

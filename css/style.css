@@ -586,7 +586,7 @@ nav ul li a {
   box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
   border-radius: 15px;
   position: relative;
-  bottom: -68px;
+  bottom: -60px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -752,7 +752,31 @@ textarea:focus::placeholder {
 }
 footer {
   background-color: #132238;
-  height: 330px;
-  margin-bottom: 200px;
+  padding-top: 192px;
+  padding-bottom: 82px;
+}
+.footer_custom_css {
+  align-items: center;
+  justify-content: center;
+}
+.footer_logo {
+  width: 158px;
+}
+.footer_menu {
+  margin: 0px 182px;
+  align-self: end;
+}
+.footer_menu ul {
+  display: flex;
+  column-gap: 24px;
+}
+.footer_menu a {
+  color: #f0f0f0;
+  line-height: 24px;
+}
+.footer_copyright h6 {
+  line-height: 24px;
+  color: #ffffff;
+  width: 186px;
 }
 /* =================================================your project part end============================================== */
