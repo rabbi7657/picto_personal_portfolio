@@ -123,6 +123,11 @@ nav ul li a {
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
 }
+.banner_custom_flex {
+  display: flex !important;
+  row-gap: 3px;
+  flex-wrap: wrap;
+}
 .banner_item {
   background-color: #edd8ff;
   text-align: center;
@@ -130,7 +135,12 @@ nav ul li a {
   margin-top: 128px;
   padding: 17px 0px;
   width: 30%;
+  border-radius: 6px;
   border-right: 3px solid #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 .banner_item:last-child {
   border: none;
@@ -273,11 +283,13 @@ nav ul li a {
 .process_content p:first-child {
   margin-bottom: 16px;
 }
+.process_custom_gap {
+  row-gap: 20px;
+}
 .process_item {
   background-color: #ffffff;
   width: 312px;
   padding: 32px;
-  margin-bottom: 28px;
   border-radius: 12px;
   transition: 0.4s;
   -webkit-border-radius: 12px;
@@ -349,11 +361,13 @@ nav ul li a {
   margin: auto;
   margin-bottom: 70px;
 }
+.portfolio_custom_gap {
+  row-gap: 24px;
+}
 .portfolio_custom_card {
   background-color: #ffffff;
   width: 424px;
   border-radius: 8px;
-  margin-bottom: 24px;
   transition: 0.4s;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
