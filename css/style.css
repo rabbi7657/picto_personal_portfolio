@@ -115,13 +115,11 @@ nav ul li a {
   margin: 24px 0px;
 }
 .banner_img {
-  box-shadow: 0px 24px 116px rgba(43, 56, 76, 0.09);
-  border-radius: 25px;
-  text-align: right;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+.banner_img img {
+  width: 536px;
 }
 .banner_custom_flex {
   display: flex !important;
@@ -400,8 +398,8 @@ nav ul li a {
 .portfolio_btn {
   border: 1px solid #a53dff;
   border-radius: 4px;
-  padding: 12px 24px;
   display: inline-block;
+  padding: 12px 24px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -423,7 +421,6 @@ nav ul li a {
 /* ================================================project part start============================================== */
 .project {
   background-color: #132238;
-  height: 392px;
   margin-top: 112px;
   padding: 100px 0px;
 }
@@ -465,6 +462,7 @@ nav ul li a {
 }
 .development_items {
   background-color: #ffffff;
+  border-left: 5px solid transparent;
   padding: 32px;
   margin-bottom: 24px;
   border-radius: 6px;
@@ -496,9 +494,6 @@ nav ul li a {
 /* =================================================development part end============================================== */
 /* =================================================Happy Clients part start============================================== */
 
-.happy_client_title {
-  margin-top: 100px;
-}
 .happy_client_title h2 {
   color: #132238;
   line-height: 56px;
@@ -518,15 +513,12 @@ nav ul li a {
   text-align: center;
 }
 .client_picture {
-  margin-bottom: 100px;
   display: inline-block;
   width: 200px;
   height: 200px;
   padding: 80px 30px;
 }
 .client_picture img {
-  vertical-align: text-top;
-  align-self: center;
   transition: 0.4s;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -534,14 +526,6 @@ nav ul li a {
   -moz-transition: 0.4s;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
-}
-.client_picture:hover {
-  background-color: #ffffff;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 .client_picture:hover img {
   transform: scale(1.1);
@@ -567,7 +551,7 @@ nav ul li a {
   color: #87909d;
   text-align: center;
   margin: auto;
-  margin-top: 24px;
+  padding-top: 24px;
 }
 .testimonial_msg p {
   width: 872px;
@@ -575,7 +559,7 @@ nav ul li a {
   color: #2b384c;
   text-align: center;
   margin: auto;
-  margin-top: 70px;
+  padding-top: 70px;
 }
 .testimonial_msg h3 {
   width: 131px;
@@ -592,6 +576,37 @@ nav ul li a {
   margin-top: 8px;
   margin-bottom: 50px;
 }
+.testimonial_circle {
+  text-align: center;
+}
+.testimonial_circle a {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: #c3c7ce;
+  display: inline-block;
+  border-radius: 50%;
+  transition: 0.4s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.testimonial_circle a:hover {
+  width: 38px;
+  height: 10px;
+  background-color: #333333;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
 /* =================================================testimonial part end============================================== */
 /* =================================================your project part start============================================== */
 .your_project_bg {
